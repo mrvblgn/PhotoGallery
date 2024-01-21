@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.addPhoto.AddPhotoFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add photo"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="50dp"
+        android:textSize="28dp"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="344dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/add_photo_alternate_24"/>
+
+    <Button
+        android:id="@+id/add_photo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add photo"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="350dp"/>
+
+    <LinearLayout
+        android:id="@+id/label_layout"
+        android:layout_width="350dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="420dp"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="650dp"/>
+
+</FrameLayout>
